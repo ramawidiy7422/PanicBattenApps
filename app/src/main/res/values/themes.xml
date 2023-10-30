@@ -1,0 +1,240 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PanicButtonApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorOnPrimary">@color/red</item>
+    </style>
+
+    <style name="Theme.PanicButtonApp" parent="Base.Theme.PanicButtonApp" />
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="circular" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- Ubah angka sesuai kebutuhan -->
+    </style>
+
+    <style name="RectangleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item> <!-- Ubah angka sesuai kebutuhan -->
+    </style>
+
+    <style name="Rectangle2ImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5%</item> <!-- Ubah angka sesuai kebutuhan -->
+    </style>
+
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColorHint">@color/G60</item>
+        <item name="boxStrokeColor">@color/G30</item>
+        <item name="boxStrokeWidth">@dimen/_1ssp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_8ssp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_8ssp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_8ssp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_8ssp</item>
+    </style>
+
+    <style name="CustomDropDown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColorHint">@color/G60</item>
+        <item name="boxStrokeColor">@color/G60</item>
+        <item name="boxStrokeWidth">@dimen/_1sdp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_12sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_12sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_12sdp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_12sdp</item>
+    </style>
+
+    <style name="CustomIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/red</item>
+    </style>
+
+    <style name="BottomSheetTheme" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@android:color/transparent</item>
+    </style>
+
+    <style name="TVBlackBold1">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+    </style>
+
+    <style name="TVBlackBold2">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+    </style>
+
+    <style name="TVBlackBold3">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+
+    <style name="TVBlackBold4">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="TVBlackBold5">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TVBlackMedium1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+
+    <style name="TVBlackMedium2">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="TVBlackMedium3">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TVBlackMedium4">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="TVBlackMedium5">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+    </style>
+
+    <style name="TVG90Bold1">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/G90</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="TVG90Medium1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/G90</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TVG90Medium2">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/G90</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="TVG90Medium3">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/G90</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+    </style>
+
+    <style name="TVG60Medium1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/G60</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="TVWhiteBold1">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TVWhiteMedium1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+
+    <style name="TVWhiteMedium2">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="TVWhiteMedium3">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TVWhiteMedium4">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="TVWhiteMedium5">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+    </style>
+
+    <style name="TVBlueMedium1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TVBlueBold1">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="TVBlueBold2">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TVBlueBold3">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="TVRedMedium1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="TVERedBold1">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/ERed</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TVERedMedium1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/ERed</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+
+</resources>

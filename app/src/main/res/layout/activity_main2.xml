@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_16ssp"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/daftar_image"
+        android:layout_width="@dimen/_194sdp"
+        android:layout_height="@dimen/_194sdp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/daftar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:textSize="@dimen/_15ssp"
+        android:text="Register"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8ssp"
+        style="@style/CustomTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_name"
+            style="@style/TVG90Medium1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_16ssp"
+            android:paddingEnd="@dimen/_16ssp"
+            android:paddingTop="@dimen/_8ssp"
+            android:paddingBottom="@dimen/_8ssp"
+            android:hint="@string/daftar_nama"
+            android:textColorHint="@color/G60"
+            android:drawableEnd="@drawable/baseline_person_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8ssp"
+        style="@style/CustomTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_phone"
+            style="@style/TVG90Medium1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_16ssp"
+            android:paddingEnd="@dimen/_16ssp"
+            android:paddingTop="@dimen/_8ssp"
+            android:paddingBottom="@dimen/_8ssp"
+            android:hint="@string/daftar_telp"
+            android:textColorHint="@color/G60"
+            android:drawableEnd="@drawable/baseline_phone_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8ssp"
+        style="@style/CustomTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_email"
+            style="@style/TVG90Medium1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_16ssp"
+            android:paddingEnd="@dimen/_16ssp"
+            android:paddingTop="@dimen/_8ssp"
+            android:paddingBottom="@dimen/_8ssp"
+            android:hint="@string/daftar_email"
+            android:textColorHint="@color/G60"
+            android:drawableEnd="@drawable/baseline_email_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:fontFamily="@font/poppins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8ssp"
+        android:paddingStart="@dimen/_4ssp"
+        android:paddingEnd="@dimen/_4ssp"
+        android:text="@string/daftar_persetujuan" />
+
+    <TextView
+        android:id="@+id/btn_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:elevation="@dimen/_2ssp"
+        android:background="@drawable/gradianet_warna_merah"
+        android:backgroundTint="@color/red"
+        android:padding="@dimen/_8ssp"
+        android:gravity="center"
+        android:text="daftar"
+        android:textColor="@color/white"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_4ssp"
+            android:text="@string/daftar_pertanyaan" />
+
+        <TextView
+            android:id="@+id/btn_masuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daftar_pertanyaan2" />
+    </LinearLayout>
+</LinearLayout>

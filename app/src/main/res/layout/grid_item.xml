@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_4ssp"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="@dimen/_12ssp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_4ssp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/map_img"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_75ssp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tidakada2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_8ssp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="info title" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_4ssp">
+
+                <ImageView
+                    android:id="@+id/status_circle"
+                    android:layout_width="@dimen/_12ssp"
+                    android:layout_height="@dimen/_12ssp"
+                    android:src="@drawable/lingkarap_abuabu" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4ssp"
+                    android:text="Online" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_4ssp">
+
+                <ImageView
+                    android:id="@+id/time_img"
+                    android:layout_width="@dimen/_12ssp"
+                    android:layout_height="@dimen/_12ssp"
+                    android:src="@drawable/baseline_access_time_24" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4ssp"
+                    android:text="Tanggal" />
+            </TableRow>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

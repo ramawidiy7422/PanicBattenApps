@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_16ssp"
+    tools:context=".MessageFragment">
+    <TextView
+        android:id="@+id/informasi"
+        android:textSize="@dimen/_18sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8ssp"
+        android:gravity="center"
+        android:text="Tagihan Pembayaran"
+        android:background="@color/white"
+        android:elevation="@dimen/_12ssp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16ssp"
+        android:layout_marginEnd="@dimen/_16ssp"
+        android:layout_marginBottom="@dimen/_16ssp"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:textSize="@dimen/_10ssp"
+        android:elevation="@dimen/_4ssp"
+        app:tabTextColor="@color/black"
+        app:tabTextAppearance="@style/TVWhiteMedium4"
+        app:tabSelectedTextColor="@color/white"
+        android:background="@drawable/tab_layout"
+        app:tabBackground="@drawable/tab_selected"
+        app:tabIndicatorColor="@android:color/transparent">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tagihan"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="riwayat pembayaran"/>
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

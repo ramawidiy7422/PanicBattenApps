@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_16ssp"
+    tools:context=".loginotp2Activity">
+    <ImageView
+        android:id="@+id/daftar_image"
+        android:layout_width="@dimen/_194sdp"
+        android:layout_height="@dimen/_194sdp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/veryclose" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:text="Perubahan Tersimpan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:gravity="center"
+        android:text="Nomor telpon berhasil diubah, nomor ini akan digunakan untuk pengirimankan notifikasi sitem, terimakasih" />
+
+    <TextView
+        android:id="@+id/btn_kirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_48ssp"
+        android:elevation="@dimen/_2ssp"
+        android:background="@drawable/gradianet_warna_merah"
+        android:backgroundTint="@color/red"
+        android:padding="@dimen/_8ssp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Lanjutkan"
+        android:textAllCaps="false" />
+
+</LinearLayout>

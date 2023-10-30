@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_16ssp"
+    tools:context=".MasukActivity">
+    <ImageView
+        android:id="@+id/daftar_image"
+        android:layout_width="@dimen/_194sdp"
+        android:layout_height="@dimen/_194sdp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/daftar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:text="@string/masuk"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8ssp"
+        style="@style/CustomTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_phone"
+            style="@style/TVG90Medium1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_16ssp"
+            android:paddingEnd="@dimen/_16ssp"
+            android:paddingTop="@dimen/_8ssp"
+            android:paddingBottom="@dimen/_8ssp"
+            android:hint="@string/daftar_telp"
+            android:textColorHint="@color/G60"
+            android:drawableEnd="@drawable/baseline_phone_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/btn_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:elevation="@dimen/_2ssp"
+        android:background="@color/red"
+        android:backgroundTint="@color/red"
+        android:padding="@dimen/_8ssp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="daftar"
+        android:textAllCaps="false" />
+
+    <TextView
+        style="@style/TVBlackMedium3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_8ssp"
+        android:text="@string/atau" />
+
+    <TextView
+        android:id="@+id/btn_google"
+        style="@style/TVBlackMedium3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8ssp"
+        android:elevation="@dimen/_2ssp"
+        android:background="@color/red"
+        android:padding="@dimen/_8ssp"
+        android:text="@string/masuk_google"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:drawableStartCompat="@drawable/icon_google"
+        android:drawablePadding="@dimen/_8ssp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_4ssp"
+            android:text="@string/masuk_pertanyaan" />
+
+        <TextView
+            android:id="@+id/btn_daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masuk_pertanyaan2" />
+    </LinearLayout>
+</LinearLayout>

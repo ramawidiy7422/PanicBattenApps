@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">PanicButtonApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_title">Loremaaaaaaaaaaaaaaaa Ipsum</string>
+    <string name="info_desc">Lorem ipsum snoff Today is good day Brotherhood motr cycle , Straight outta champton</string>
+    <string name="kode">kode</string>
+
+    <string-array name="info_title">
+        <item>Chheck</item>
+        <item>Traid</item>
+        <item>Triad</item>
+        <item>Vnas</item>
+        <item>The Cruu</item>
+        <item>Red Devil</item>
+        <item>National Geogravi  </item>
+    </string-array>
+
+    <integer-array name="info_picture">
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+    </integer-array>
+
+    <string-array name="toko_name">
+        <item>Toko1</item>
+        <item>Toko2</item>
+        <item>Toko3</item>
+        <item>Toko4</item>
+    </string-array>
+
+    <string-array name="toko_status">
+        <item>Online</item>
+        <item>Offline</item>
+        <item>Maintenance</item>
+        <item>Menunggu Pemasangan</item>
+    </string-array>
+
+    <string-array name="toko_time">
+        <item>24.10</item>
+        <item>24 Oktober 2024</item>
+        <item>30 Oktober 2024</item>
+        <item>Tidak ada</item>
+    </string-array>
+
+
+    <integer-array name="toko_image">
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+        <item>@drawable/tidakada2</item>
+    </integer-array>
+    <string name="logout_desc">Apakah Anda yakin ingin keluar? Jika ingin masuk kembali, gunakan nama dan email atau nomor seluler Anda</string>
+
+    <string name="daftar_nama">Masukkan Nama Lengkap</string>
+    <string name="daftar_telp">Masukkan Nomor Telepon</string>
+    <string name="daftar_email">Masukkan Email</string>
+    <string name="daftar_persetujuan">Dengan mendaftar, Anda dianggap telah menyetujui syarat dan ketentuan dan kebijakan privasi kami</string>
+    <string name="daftar_pertanyaan">Sudah punya akun?</string>
+    <string name="daftar_pertanyaan2">Masuk</string>
+
+    <string name="masuk">Masuk</string>
+    <string name="atau">Atau</string>
+    <string name="masuk_google">Masuk dengan Google</string>
+    <string name="masuk_pertanyaan">Belum punya akun?</string>
+    <string name="masuk_pertanyaan2">Daftar</string>
+    <string name="rincian_pembayaran">Rincian Pembayaran</string>
+    <string name="menunggu_pembayaran">Menunggu Pembayaran</string>
+    <string name="menunggu_pembayaran_desc">Silakan lakukan pembayaran tagihan paling lambat 11 Oktober 2024, 11.10</string>
+    <string name="menunggu_pembayaran_desc2">Silakan lakukan pembayaran tagihan paling lambat 13 Oktober 2024, 13.10</string>
+    <string name="pembayaran_selesai">Pembayaran Selesai</string>
+    <string name="pembayaran_selesai_desc">Terima kasih sudah melakukan pembayaran. Kamu dapat menghubungi bantuan apabila terjadi masalah terkait pembayaran</string>
+    <string name="pembayaran_pending">Ups! Pembayaran Anda Pending</string>
+    <string name="pembayaran_pending_desc">Pembayaran Anda mengalami status pending. Mohon tunggu informasi lebih lanjut</string>
+    <string name="pembayaran_kadaluwarsa">Ups! Tagihan Kedalulwarsa</string>
+    <string name="pembayaran_kadaluwarsa_desc">Pembayaran tidak dapat dilakukan. Harap hubungi Layanan Pelanggan kami untuk bantuan lebih lanjut. Terima kasih</string>
+    <string name="pemasangan_baru">Pemasangan Baru</string>
+    <string name="nama_toko">Nama Toko</string>
+    <string name="price">Rp200.000,00</string>
+    <string name="address">Jl. Sentyaki Raya No.7, Bulu Lor, Kota Semarang, Jawa Tengah 50179</string>
+    <string name="price2">Rp400.000,00</string>
+    <string name="price3">Rp205.000,00</string>
+    <string name="price4">Rp405.000,00</string>
+    <string name="price5">Rp5.000,00</string>
+    <string name="jumlah_yang_harus_dibayar">Jumlah Yang harus dibayar</string>
+    <string name="pembayaran_otomatis">Pembayaran Otomatis</string>
+    <string name="metode_pembayaran">Metode Pembayaran</string>
+    <string name="status_pembayaran">Status Pembayaran</string>
+    <string name="_28_oktokber_2020">28 Oktokber 2020</string>
+    <string name="tagihan">Tagihan </string>
+    <string name="riwayat_pembayaran">Riwayat Pembayaran</string>
+    <string name="profile_2">PROFILE</string>
+    <string name="welcome_name">William Jack Gho</string>
+    <string name="no_hp">08123131323</string>
+    <string name="nama">Nama</string>
+    <string name="no_seluler">No.HP</string>
+    <string name="email">Email</string>
+    <string name="mail_add">WilliamJackGHOgang@ra.com</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="kebijakan_verifikasi">Kebijakan Verifikasi</string>
+    <string name="keluar">keluar</string>
+    <string name="logout_title">Logout Account</string>
+    <string-array name="code">
+        <item>VG010TRI</item>
+        <item>ARC007NI</item>
+        <item>TRI010VG</item>
+        <item>NI007ARC</item>
+    </string-array>
+    <string-array name="code2">
+        <item>GS100SET</item>
+        <item>SHI010TE</item>
+        <item>SET100GS</item>
+        <item>TE010SHI</item>
+    </string-array>
+    <string-array name="renewal">
+        <item>Perpanjangan Otomatis</item>
+        <item>Perpanjangan Otomatis</item>
+        <item>Pemasangan Baru</item>
+        <item>Pemasangan Baru</item>
+    </string-array>
+    <string-array name="total_price">
+        <item>Rp 205.000,00</item>
+        <item>Rp 205.000,00</item>
+        <item>Rp 405.000,00</item>
+        <item>Rp 405.000,00</item>
+    </string-array>
+    <string-array name="toko_price">
+        <item>Rp 200.000,00</item>
+        <item>Rp 200.000,00</item>
+        <item>Rp 200.000,00</item>
+        <item>Rp 200.000,00</item>
+    </string-array>
+    <string-array name="time2">
+        <item>11 October 2024, 11.10</item>
+        <item>13 October 2024, 13.10</item>
+        <item>15 October 2024, 15.10</item>
+        <item>17 October 2024, 17.10</item>
+    </string-array>
+    <string-array name="status2">
+        <item>Selesai</item>
+        <item>Kadaluwarsa</item>
+        <item>Selesai</item>
+        <item>Kadaluwarsa</item>
+    </string-array>
+    <string name="info_desc2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string-array name="kecamatan">
+        <item>Kec. Banyumanik</item>
+        <item>Kec. Candisari</item>
+        <item>Kec. Gajah Mungkur</item>
+        <item>Kec. Gayamsari</item>
+        <item>Kec. Genuk</item>
+        <item>Kec. Gunungpati</item>
+        <item>Kec. Mijen</item>
+        <item>Kec. Ngaliyan</item>
+        <item>Kec. Pedurungan</item>
+        <item>Kec. Semarang Barat</item>
+        <item>Kec. Semarang Selatan</item>
+        <item>Kec. Semarang Tengah</item>
+        <item>Kec. Semarang Timur</item>
+        <item>Kec. Semarang Utara</item>
+        <item>Kec. Tembalang</item>
+        <item>Kec. Tugu</item>
+    </string-array>
+
+    <string-array name="kelurahan">
+        <item>Kel. Sekayu</item>
+        <item>Kel. Kauman</item>
+        <item>Kel. Pandansari</item>
+        <item>Kel. Bulu Lor</item>
+        <item>Kel. Tanjung Mas</item>
+        <item>Kel. Bandarharjo</item>
+        <item>Kel. Karangturi</item>
+        <item>Kel. Raden Patah</item>
+        <item>Kel. Karangsana</item>
+        <item>Kel. Lamper Tengah</item>
+        <item>Kel. Peterongan</item>
+        <item>Kel. Mugassari</item>
+        <item>Kel. Penggaron</item>
+        <item>Kel. Genuksari</item>
+        <item>Kel. Trimulyo</item>
+        <item>Kel. Sidomukti</item>
+        <item>Kel. Mojopahit</item>
+        <item>Kel. Tlogosari Raya</item>
+        <item>Kel. Sampangan</item>
+        <item>Kel. Merapi</item>
+        <item>Kel. Bendungan</item>
+        <item>Kel. Jatingaleh</item>
+        <item>Kel. Tegalsari</item>
+        <item>Kel. Jomblang</item>
+        <item>Kel. Pudakpayung</item>
+        <item>Kel. Ngesrep</item>
+        <item>Kel. Gedawang</item>
+        <item>Kel. Gunungpati</item>
+        <item>Kel. Jatirejo</item>
+        <item>Kel. Mangunsari</item>
+        <item>Kel. Karangayu</item>
+        <item>Kel. Manyaran</item>
+        <item>Kel. Kalibanteng</item>
+        <item>Kel. Majapahit</item>
+        <item>Kel. Gayamsari</item>
+        <item>Kel. Tambakrejo</item>
+        <item>Kel. Karanganyar</item>
+        <item>Kel. Tugurejo</item>
+        <item>Kel. Mangkang Kulon</item>
+        <item>Kel. Tembalang</item>
+        <item>Kel. Kedungmundu</item>
+        <item>Kel. Bulusan</item>
+    </string-array>
+    <string name="bayar_sekarang">Bayar Sekarang</string>
+    <string name="logout">logout</string>
+    <string-array name="status">
+        <item>Menunggu</item>
+        <item>Pending</item>
+        <item>Menunggu</item>
+        <item>Pending</item>
+    </string-array>
+    <string-array name="time">
+        <item>10 October 2024, 10.10</item>
+        <item>12 October 2024, 12.10</item>
+        <item>14 October 2024, 14.10</item>
+        <item>16 October 2024, 16.10</item>
+    </string-array>
+    <string-array name="pay_before_date">
+        <item>Bayar sebelum 11 October 2024</item>
+        <item>Bayar sebelum 13 October 2024</item>
+        <item>Bayar sebelum 15 October 2024</item>
+        <item>Bayar sebelum 17 October 2024</item>
+    </string-array>
+    <string-array name="pay_before_hour">
+        <item>Pukul 11.10</item>
+        <item>Pukul 13.10</item>
+        <item>Pukul 15.10</item>
+        <item>Pukul 17.10</item>
+    </string-array>
+</resources>

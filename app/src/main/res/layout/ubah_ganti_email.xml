@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frame_ubah_nomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/toolbar_back_item"
+            android:layout_width="@dimen/_31sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            app:srcCompat="@drawable/baseline_arrow_black" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_informasi_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_85sdp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:fontFamily="@font/poppins"
+            android:text="ubah E-Mail"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp" />
+
+    </FrameLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_nomor_seluler_baru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frame_ubah_nomer"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_35sdp"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="@dimen/_15sdp"
+        android:fontFamily="@font/poppins"
+        android:hint="Email"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/_12ssp"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_selajutnya_nomer_baru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_nomor_seluler_baru"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:background="@color/red"
+        android:fontFamily="@font/poppins"
+        android:text="Change"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp" />
+
+</RelativeLayout>

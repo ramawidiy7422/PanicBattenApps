@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_16ssp"
+    tools:context=".loginotpActivity">
+
+    <ImageView
+        android:layout_width="@dimen/_194sdp"
+        android:layout_height="@dimen/_194sdp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gambar3panicotp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:text="Masukkan OTP KODE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="Silahkan Masukkan 6 digit kode yang telah kami kirimkan melalui nomer telepon +623-2***32-31" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_otp_1"
+            android:background="@drawable/kotak_kotak_otp"
+            android:layout_width="@dimen/_34ssp"
+            android:layout_height="@dimen/_34ssp"
+            android:layout_marginStart="@dimen/_2ssp"
+            android:layout_marginEnd="@dimen/_2ssp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxLength="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edt_otp_2"
+            android:background="@drawable/kotak_kotak_otp"
+            android:layout_width="@dimen/_34ssp"
+            android:layout_height="@dimen/_34ssp"
+            android:layout_marginStart="@dimen/_2ssp"
+            android:layout_marginEnd="@dimen/_2ssp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxLength="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edt_otp_3"
+            android:background="@drawable/kotak_kotak_otp"
+            android:layout_width="@dimen/_34ssp"
+            android:layout_height="@dimen/_34ssp"
+            android:layout_marginStart="@dimen/_2ssp"
+            android:layout_marginEnd="@dimen/_2ssp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxLength="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edt_otp_4"
+            android:background="@drawable/kotak_kotak_otp"
+            android:layout_width="@dimen/_34ssp"
+            android:layout_height="@dimen/_34ssp"
+            android:layout_marginStart="@dimen/_2ssp"
+            android:layout_marginEnd="@dimen/_2ssp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxLength="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edt_otp_5"
+            android:background="@drawable/kotak_kotak_otp"
+            android:layout_width="@dimen/_34ssp"
+            android:layout_height="@dimen/_34ssp"
+            android:layout_marginStart="@dimen/_2ssp"
+            android:layout_marginEnd="@dimen/_2ssp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxLength="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edt_otp_6"
+            android:background="@drawable/kotak_kotak_otp"
+            android:layout_width="@dimen/_34ssp"
+            android:layout_height="@dimen/_34ssp"
+            android:layout_marginStart="@dimen/_2ssp"
+            android:layout_marginEnd="@dimen/_2ssp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxLength="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_kirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:elevation="@dimen/_2ssp"
+        android:background="@drawable/gradianet_warna_merah"
+        android:backgroundTint="@color/red"
+        android:padding="@dimen/_8ssp"
+        android:gravity="center"
+        android:text="Send"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_4ssp"
+            android:text="Tidak dapat menerima kode?" />
+
+        <TextView
+            android:id="@+id/btn_waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:10" />
+    </LinearLayout>
+</LinearLayout>
