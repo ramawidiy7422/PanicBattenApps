@@ -36,6 +36,7 @@
             android:layout_marginTop="@dimen/_16ssp"
             android:gravity="center"
             android:textStyle="bold"
+            android:textColor="@color/black"
             android:fontFamily="@font/poppins"
             android:textSize="@dimen/_18sdp"
             android:text="RINCIAN PEMBAYARAN" />
@@ -182,6 +183,8 @@
                         <TextView
                             android:id="@+id/toko_location"
                             android:layout_width="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins"
                             android:layout_height="wrap_content"
                             android:text="@string/address" />
                     </LinearLayout>
@@ -201,7 +204,10 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="total dan detail tagihan"
+                android:text="Total Dan Tagihan"
+                android:fontFamily="@font/poppins"
+                android:textStyle="normal"
+                android:textColor="@color/black"
                 android:layout_marginBottom="@dimen/_8ssp"/>
 
             <LinearLayout
@@ -215,6 +221,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:text="biaya Paket"
                     style="@style/TVG90Medium1"/>
 
@@ -223,6 +230,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/price"
+                    android:textColor="@color/black"
                     style="@style/TVG90Medium1"/>
 
             </LinearLayout>
@@ -238,6 +246,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:text="total Pemasangan"
                     style="@style/TVG90Medium1"/>
 
@@ -245,6 +254,7 @@
                     android:id="@+id/subtotal_biaya_pemasangan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:text="@string/price"
                     style="@style/TVG90Medium1"/>
 
@@ -261,6 +271,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:text="Biaya Administrasi"
                     style="@style/TVG90Medium1"/>
 
@@ -269,6 +280,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/price5"
+                    android:textColor="@color/black"
                     style="@style/TVG90Medium1"/>
 
             </LinearLayout>
@@ -342,6 +354,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Waktu Tagihan"
+                    android:textColor="@color/black"
                     style="@style/TVG90Medium1"/>
 
                 <TextView
@@ -349,6 +362,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/_28_oktokber_2020"
+                    android:textColor="@color/black"
                     style="@style/TVG90Medium1"/>
 
             </LinearLayout>
@@ -363,6 +377,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:text="@string/status_pembayaran"
                     style="@style/TVG90Medium1"/>
 
@@ -371,6 +386,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/menunggu_pembayaran"
+                    android:textColor="@color/black"
                     style="@style/TVG90Medium1"/>
 
             </LinearLayout>
@@ -433,6 +449,9 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="@dimen/_4ssp"
                 android:gravity="end"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:textStyle="normal"
                 android:text="@string/jumlah_yang_harus_dibayar" />
 
             <TextView

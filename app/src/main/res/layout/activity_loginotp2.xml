@@ -22,6 +22,7 @@
         android:layout_marginTop="@dimen/_16ssp"
         android:gravity="center_horizontal"
         android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
         android:fontFamily="@font/poppins"
         android:textStyle="bold"
         android:text="Perubahan Tersimpan"/>
@@ -31,6 +32,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_16ssp"
         android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="@dimen/_12sdp"
         android:text="Nomor telpon berhasil diubah, nomor ini akan digunakan untuk pengirimankan notifikasi sitem, terimakasih" />
 
     <TextView

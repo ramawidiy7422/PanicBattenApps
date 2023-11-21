@@ -32,6 +32,7 @@
             android:textStyle="bold"
             android:fontFamily="@font/poppins"
             android:gravity="center"
+            android:textColor="@color/black"
             android:textSize="@dimen/_18sdp"
             android:text="Tambah Panic Button" />
     </RelativeLayout>
@@ -45,11 +46,12 @@
         android:padding="@dimen/_16ssp">
 
         <TextView
-
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nama Panic Button"
             android:textStyle="bold"
+            android:fontFamily="@font/poppins"
             android:textSize="@dimen/_13sdp"/>
 
         <EditText
@@ -59,6 +61,8 @@
             android:layout_marginTop="@dimen/_4ssp"
             android:ems="10"
             android:inputType="text"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
             android:hint="Tambah Panic Button"
             android:textColorHint="#676767"/>
 
@@ -67,6 +71,8 @@
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
             android:layout_marginTop="@dimen/_16ssp"
             android:text="Tambahkan Alamat" />
 
@@ -88,6 +94,8 @@
                     android:layout_height="wrap_content"
                     android:paddingStart="@dimen/_16ssp"
                     android:paddingEnd="@dimen/_16ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins"
                     android:paddingTop="@dimen/_8ssp"
                     android:paddingBottom="@dimen/_8ssp"
                     android:hint="Pilih Kecamatan"
@@ -107,6 +115,8 @@
                     android:layout_height="wrap_content"
                     android:paddingStart="@dimen/_16ssp"
                     android:paddingEnd="@dimen/_16ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins"
                     android:paddingTop="@dimen/_8ssp"
                     android:paddingBottom="@dimen/_8ssp"
                     android:hint="Pilih kelurahan"
@@ -121,6 +131,8 @@
             android:layout_marginTop="@dimen/_4ssp"
             android:ems="10"
             android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
             android:hint="Alamat"
             android:textColorHint="@color/G90"/>
 
@@ -139,14 +151,18 @@
         android:id="@+id/btn_tambah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:layout_margin="@dimen/_16ssp"
-        android:elevation="@dimen/_2ssp"
+        android:layout_marginStart="@dimen/_16ssp"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:layout_marginEnd="@dimen/_16ssp"
+        android:layout_marginBottom="@dimen/_16ssp"
         android:background="@drawable/gradianet_warna_merah"
         android:backgroundTint="@color/red"
-        android:padding="@dimen/_8ssp"
+        android:elevation="@dimen/_2ssp"
         android:gravity="center"
+        android:fontFamily="@font/poppins"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8ssp"
         android:text="ADD"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white" />
 </RelativeLayout>

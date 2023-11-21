@@ -26,7 +26,7 @@ class editnomor : AppCompatActivity() {
             val confirmText = getString(R.string.logout_desc)
 
             val updatePhoneDialog = UpdatePhoneDialog(this, confirmTitle, confirmText) {
-                val intent = Intent(this, loginotpActivity::class.java)
+                val intent = Intent(this, MasukActivity::class.java)
                 startActivity(intent)
             }
             updatePhoneDialog.show()

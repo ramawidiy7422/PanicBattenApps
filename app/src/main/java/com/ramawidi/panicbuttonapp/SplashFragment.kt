@@ -14,7 +14,7 @@ class SplashFragment : AppCompatActivity() {
         supportActionBar?.hide()
 
         Handler().postDelayed({
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, MainActivity2::class.java))
             finish()
         }, 3000)
     }

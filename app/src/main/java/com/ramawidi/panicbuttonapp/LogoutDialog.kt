@@ -1,6 +1,7 @@
 package com.ramawidi.panicbuttonapp
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import androidx.appcompat.app.AlertDialog
@@ -10,8 +11,8 @@ class LogoutDialog (
     private val context: Context,
     private val title: String,
     private val message: String,
-    private val onConfirmation: () -> Unit) {
-
+    private val onConfirmation: () -> Unit
+) {
     fun show() {
         // inflate and binding the layout
         val dialogView: View = LayoutInflater.from(context).inflate(R.layout.logout_info, null)
@@ -31,7 +32,14 @@ class LogoutDialog (
 
         // set positive custom view button
         binding.yesBtn.setOnClickListener {
-            //onConfirmation.invoke()
+            // Tambahkan tindakan logout di sini
+            onConfirmation.invoke()
+
+            // Tambahkan kode logout di sini, misalnya:
+            val intent = Intent(context, MasukActivity::class.java)
+            context.startActivity(intent)
+
+            // Setelah logout, Anda dapat menutup dialog
             alertDialog.dismiss()
         }
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "867349217145",
+    "project_id": "panicbuttonapp-9b85e",
+    "storage_bucket": "panicbuttonapp-9b85e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867349217145:android:2b814ab3bb975ddf2979a8",
+        "android_client_info": {
+          "package_name": "com.ramawidi.panicbuttonapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcldfOHPTlGgDhmGaqu_53i7U9qW2om9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

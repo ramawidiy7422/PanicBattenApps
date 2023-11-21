@@ -6,8 +6,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+import androidx.lifecycle.findViewTreeViewModelStoreOwner
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.firebase.auth.FirebaseAuth
 import com.ramawidi.panicbuttonapp.Adapter.HomeAdapter
 import com.ramawidi.panicbuttonapp.Adapter.InformanAdapter
 import com.ramawidi.panicbuttonapp.Data.Plassboy
@@ -22,7 +25,9 @@ class HomeFragment : Fragment() {
     // list info
     private lateinit var infoList : RecyclerView
     private val listInfo = ArrayList<Plassboy>()
-
+    val firebaseAuth = FirebaseAuth.getInstance()
+    lateinit var textFullName : TextView
+    lateinit var textEmail : TextView
     // list panic
     private lateinit var panicAdapter: HomeAdapter
     private var isListView = true
@@ -36,6 +41,8 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val view = binding.root
+        // Inisialisasi FirebaseAuth
+
 
         // Toggle view between list and grid when btn_list is clicked
         binding.toggleButton.setOnClickListener {

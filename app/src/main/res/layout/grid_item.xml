@@ -30,6 +30,9 @@
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
                 android:text="info title" />
 
             <TableRow
@@ -49,6 +52,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_4ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins"
                     android:text="Online" />
             </TableRow>
 
@@ -70,6 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_4ssp"
+                    android:textColor="@color/black"
                     android:text="Tanggal" />
             </TableRow>
 

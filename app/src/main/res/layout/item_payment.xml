@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         android:padding="@dimen/_10ssp"
         android:orientation="vertical">
 
@@ -45,7 +46,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/_4ssp"
-                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:background="@color/green"
                     android:text="status"/>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -54,6 +56,7 @@
             android:id="@+id/time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:layout_marginTop="@dimen/_4ssp"
             android:text="28 Oktokber 2023" />
 
@@ -71,6 +74,7 @@
             android:fontFamily="@font/poppins"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="RP 200.000" />
 
         <View
@@ -93,6 +97,8 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="@dimen/_4ssp"
                 android:gravity="end"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
                 android:text="Jumlah dibayar" />
 
             <TextView
@@ -122,6 +128,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
                 android:text="Kadaluarsa" />
 
             <TextView

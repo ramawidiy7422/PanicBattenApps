@@ -5,6 +5,7 @@
     <string name="info_title">Loremaaaaaaaaaaaaaaaa Ipsum</string>
     <string name="info_desc">Lorem ipsum snoff Today is good day Brotherhood motr cycle , Straight outta champton</string>
     <string name="kode">kode</string>
+    <string name="google_map_api_key">AIzaSyAktz6oLDZSqKTN2c53FpQiP6_4lLOLYKE</string>
 
     <string-array name="info_title">
         <item>Chheck</item>
@@ -58,6 +59,8 @@
 
     <string name="daftar_nama">Masukkan Nama Lengkap</string>
     <string name="daftar_telp">Masukkan Nomor Telepon</string>
+    <string name="masuk_passwrd">Password</string>
+    <string name="re_passwordd">Re-Password</string>
     <string name="daftar_email">Masukkan Email</string>
     <string name="daftar_persetujuan">Dengan mendaftar, Anda dianggap telah menyetujui syarat dan ketentuan dan kebijakan privasi kami</string>
     <string name="daftar_pertanyaan">Sudah punya akun?</string>

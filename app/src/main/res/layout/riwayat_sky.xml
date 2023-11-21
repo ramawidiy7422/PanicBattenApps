@@ -13,7 +13,9 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="16dp"
         android:text="Informasi"
-        android:textColor="#27231F"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         android:textSize="@dimen/_16ssp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

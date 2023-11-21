@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/white"
     android:layout_margin="@dimen/_4ssp"
     app:cardCornerRadius="@dimen/_12ssp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         android:padding="@dimen/_10ssp"
         android:orientation="vertical">
 
@@ -44,7 +44,8 @@
                     android:id="@+id/tv_status"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
+                    android:background="@color/green"
+                    android:textColor="@color/black"
                     android:padding="@dimen/_4ssp"
                     android:text="status"/>
             </androidx.cardview.widget.CardView>
@@ -52,6 +53,8 @@
 
         <TextView
             android:id="@+id/time"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_4ssp"
@@ -63,12 +66,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_8ssp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
             android:text="Nama toko" />
 
         <TextView
             android:id="@+id/toko_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
             android:text="Rp200.000,00" />
 
         <View
@@ -91,6 +98,8 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="@dimen/_4ssp"
                 android:gravity="end"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
                 android:text="Jumlah Dibayar" />
 
             <TextView
@@ -124,12 +133,17 @@
                     android:id="@+id/pay_before_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins"
                     android:text="bayar sebelum" />
 
                 <TextView
                     android:id="@+id/pay_before_hour"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins"
                     android:text="28 Oktokber 2023" />
             </LinearLayout>
 

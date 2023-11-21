@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:textSize="@dimen/_18sdp"
             android:textStyle="bold"
+            android:textColor="@color/black"
             android:fontFamily="@font/poppins"
             android:text="Change Name" />
     </LinearLayout>
@@ -40,7 +41,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16ssp">
+        android:layout_margin="@dimen/_16ssp"
+        style="@style/CustomTextInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edt_nama"
@@ -48,6 +50,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="@dimen/_16ssp"
             android:paddingEnd="@dimen/_16ssp"
+            style="@style/CustomTextInputLayout"
             android:paddingTop="@dimen/_8ssp"
             android:paddingBottom="@dimen/_8ssp"
             android:hint="Ubah Nama"
@@ -64,7 +67,9 @@
         android:background="@drawable/gradianet_warna_merah"
         android:backgroundTint="@color/red"
         android:padding="@dimen/_8ssp"
+        android:textStyle="bold"
         android:gravity="center"
+        android:textColor="@color/white"
         android:text="SAVE"/>
 
 </LinearLayout>

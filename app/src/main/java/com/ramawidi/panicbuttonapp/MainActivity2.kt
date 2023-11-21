@@ -1,11 +1,28 @@
 package com.ramawidi.panicbuttonapp
 
+import android.app.ProgressDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
+import android.widget.EditText
+import android.widget.TextView
+import android.widget.Toast
+import android.widget.Toast.LENGTH_SHORT
+import com.google.android.material.textfield.TextInputEditText
+import com.google.firebase.Firebase
+import com.google.firebase.FirebaseException
+import com.google.firebase.FirebaseTooManyRequestsException
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
+import com.google.firebase.auth.PhoneAuthCredential
+import com.google.firebase.auth.PhoneAuthOptions
+import com.google.firebase.auth.PhoneAuthProvider
+import com.google.firebase.auth.userProfileChangeRequest
 import com.ramawidi.panicbuttonapp.databinding.ActivityMain2Binding
+import java.util.concurrent.TimeUnit
 
 class MainActivity2 : AppCompatActivity() {
     // binding
@@ -16,44 +33,31 @@ class MainActivity2 : AppCompatActivity() {
         binding = ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Mendefinisikan TextWatchers untuk TextInputEditText
-        val nameEditText = binding.edtName
-        val phoneEditText = binding.edtPhone
-        val emailEditText = binding.edtEmail
-
-        val textWatchers = arrayOf(nameEditText, phoneEditText, emailEditText)
-
-        // Mengatur awalnya tombol btnDaftar dalam keadaan nonaktif
-        binding.btnDaftar.isEnabled = false
-
-        // Menambahkan TextWatcher ke masing-masing TextInputEditText
-        for (editText in textWatchers) {
-            editText.addTextChangedListener(object : TextWatcher {
-                override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-                    // Tidak digunakan
-                }
-
-                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                    // Tidak digunakan
-                }
-
-                override fun afterTextChanged(s: Editable?) {
-                    // Cek apakah semua TextInputEditText telah diisi dan checkBox dicentang
-                    val isNameFilled = nameEditText.text?.isNotBlank()
-                    val isPhoneFilled = phoneEditText.text?.isNotBlank()
-                    val isEmailFilled = emailEditText.text?.isNotBlank()
-                    val isCheckBoxChecked = binding.checkBox.isChecked
-
-                    // Mengaktifkan atau menonaktifkan tombol btnDaftar berdasarkan kondisi
-                    binding.btnDaftar.isEnabled = isNameFilled == true && isPhoneFilled == true && isEmailFilled == true && isCheckBoxChecked
-                }
-            })
-        }
-
-        // to OTPActivity
-        binding.btnDaftar.setOnClickListener {
+        // Pengecekan apakah pengguna sudah login sebelumnya
+        val currentUser = FirebaseAuth.getInstance().currentUser
+        if (currentUser != null) {
+            // Jika sudah login, alihkan ke halaman yang sesuai
             val intent = Intent(this@MainActivity2, loginotpActivity::class.java)
             startActivity(intent)
+            finish() // Selesai, agar pengguna tidak bisa kembali ke halaman login
+        }
+
+        // Mendefinisikan TextWatchers untuk TextInputEditText
+        binding.btnDaftar.setOnClickListener {
+            if (binding.edtPhone.text.toString().isEmpty()) {
+                binding.edtPhone.error = "Enter Email"
+            } else if (binding.edtPasswrd.text.toString().isEmpty()) {
+                binding.edtPasswrd.error = "Enter Password"
+            } else if (binding.confrmPass.text.toString().isEmpty()) {
+                binding.confrmPass.error = "Enter Password Again"
+            } else if (!(binding.edtPasswrd.text.toString()
+                    .equals(binding.confrmPass.text.toString()))
+            ) {
+                binding.confrmPass.error = "Password must be the same"
+            } else {
+                // ...
+                // Lakukan operasi yang diperlukan jika pengguna ingin mendaftar
+            }
         }
 
         // to MasukActivity
@@ -63,3 +67,4 @@ class MainActivity2 : AppCompatActivity() {
         }
     }
 }
+

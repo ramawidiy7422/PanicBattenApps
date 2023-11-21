@@ -21,6 +21,7 @@
             android:layout_height="@dimen/_24ssp"
             android:layout_marginStart="@dimen/_8ssp"
             android:layout_marginEnd="@dimen/_16ssp"
+            android:background="@color/white"
             android:padding="@dimen/_4ssp"
             android:src="@drawable/baseline_arrow_black"
             android:adjustViewBounds="true"/>
@@ -30,6 +31,7 @@
             android:textSize="@dimen/_18sdp"
             android:textStyle="bold"
             android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Change E-Mail" />
@@ -38,7 +40,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16ssp">
+        android:layout_margin="@dimen/_16ssp"
+        style="@style/CustomTextInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edt_email"
@@ -49,6 +52,8 @@
             android:paddingTop="@dimen/_8ssp"
             android:paddingBottom="@dimen/_8ssp"
             android:hint="Ubah Email"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:drawableStart="@drawable/baseline_email_24"
             android:drawablePadding="@dimen/_8ssp"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -58,6 +63,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_16ssp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
         android:elevation="@dimen/_2ssp"
         android:background="@drawable/gradianet_warna_merah"
         android:backgroundTint="@color/red"

@@ -31,6 +31,8 @@
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
                 android:text="Toko Maju Jaya"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold" />
@@ -42,7 +44,9 @@
                 android:layout_marginTop="@dimen/_4ssp"
                 android:text="deskripsi"
                 android:textSize="@dimen/_12ssp"
-                android:textStyle="normal" />
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
